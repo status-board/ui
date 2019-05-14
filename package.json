@@ -71,7 +71,7 @@
     "@babel/plugin-proposal-object-rest-spread": "7.4.4",
     "@babel/preset-env": "7.4.4",
     "@babel/preset-typescript": "7.3.3",
-    "@status-board/components": "1.0.4",
+    "@status-board/components": "1.0.6",
     "@status-board/theme-manager": "1.0.1",
     "@types/babel__core": "7.1.1",
     "@types/eslint": "4.16.6",
