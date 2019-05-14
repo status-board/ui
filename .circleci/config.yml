@@ -121,7 +121,7 @@ jobs:
       - *attach_workspace
       - run:
           name: Build JavaScript
-          command: npm run ts:build
+          command: npm run build
       - persist_to_workspace:
           root: ~/project
           paths: ui
