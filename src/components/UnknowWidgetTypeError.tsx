@@ -1,7 +1,7 @@
 import React from 'react';
 import { Widget, WidgetBody, WidgetHeader } from '@status-board/components';
 
-interface UnknowWidgetTypeErrorProps {
+export interface UnknowWidgetTypeErrorProps {
     extension: string;
     widget: string;
 }

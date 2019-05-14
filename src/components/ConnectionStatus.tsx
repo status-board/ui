@@ -49,7 +49,7 @@ class ConnectionStatus extends Component<Props, State> {
         this.clearCountDown();
 
         this.setState({ countdown: WS_RETRY_DELAY_SECONDS });
-        this.timer = setInterval(() => {
+        this.timer = window.setInterval(() => {
             const { countdown } = this.state;
             this.setState({ countdown: countdown - 1 });
         }, 1000);

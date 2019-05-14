@@ -2,12 +2,14 @@ import React from 'react';
 import { withTheme } from 'emotion-theming';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Theme } from '@status-board/theme-manager/lib/types';
+
 import DashboardTitle from './DashboardTitle';
 import DashboardPlayer from './DashboardPlayer';
 import TitleWrapper from './TitleWrapper';
 import Toggle from './Toggle';
-import { Dashboard, Theme } from '../../types';
 import Header from './Header';
+import { Dashboard } from '../../types';
 
 interface DashboardHeaderProps {
     settingsOpened: boolean;

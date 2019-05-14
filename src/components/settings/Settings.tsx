@@ -1,10 +1,10 @@
 import React from 'react';
 import { spring, TransitionMotion } from 'react-motion';
+import { Themes } from '@status-board/theme-manager/lib/types';
 
 import ThemeSetting from './ThemesSetting';
 import Overlay from './Overlay';
 import Container from './Container';
-import { Themes } from '../../types';
 
 const willEnter = () => ({ y: -100, opacity: 0 });
 const willLeave = () => ({

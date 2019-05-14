@@ -6,13 +6,14 @@ import {
     faArrowLeft,
     faArrowRight,
 } from '@fortawesome/free-solid-svg-icons';
+import { Theme } from '@status-board/theme-manager/lib/types';
 
 import Button from './Button';
 import Container from './Container';
 import Page from './Page';
 import PlayButton from './PlayButton';
 import Slash from './Slash';
-import { Dashboard, Theme } from '../../types';
+import { Dashboard } from '../../types';
 
 interface DashboardPlayerProps {
     dashboards: Dashboard[];

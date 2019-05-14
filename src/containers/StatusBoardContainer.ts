@@ -1,6 +1,7 @@
 import { Action } from 'redux';
 import { connect } from 'react-redux';
 import { ThunkDispatch } from 'redux-thunk';
+
 import StatusBoard from '../components/StatusBoard';
 import {
     fetchConfiguration,
@@ -16,7 +17,6 @@ import {
 } from '../store/themes/actions';
 import {
     RootState,
-    Theme,
 } from '../types';
 
 const mapStateToProps = (state: RootState) => {

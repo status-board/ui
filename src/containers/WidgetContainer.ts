@@ -1,6 +1,7 @@
 import get from 'lodash/get';
 import has from 'lodash/has';
 import { connect } from 'react-redux';
+
 import WidgetWrapper from '../components/WidgetWrapper';
 import { RootState } from '../types';
 

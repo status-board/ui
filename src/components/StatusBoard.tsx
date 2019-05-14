@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { ThemeManager } from '@status-board/theme-manager';
+import { Themes } from '@status-board/theme-manager/lib/types';
 
 import Root from './Root';
 import GlobalStyle from './GlobalStyle';
@@ -12,11 +13,9 @@ import Notifications from '../containers/NotificationsContainer';
 import {
     Configuration,
     Dashboard as DashboardType,
-    Themes,
 } from '../types';
 
-
-interface StatusBoardProps {
+export interface StatusBoardProps {
     isLoading: boolean;
     configuration: Configuration;
     dashboards: DashboardType[];

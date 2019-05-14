@@ -1,8 +1,8 @@
 import React, { ReactNode } from 'react';
 import { ThemeProvider } from 'emotion-theming';
-import { Themes } from '../types';
+import { Themes } from '@status-board/theme-manager/lib/types';
 
-interface ThemeProviderProps {
+export interface ThemeProviderProps {
     themes: Themes;
     current: string;
     children: ReactNode;

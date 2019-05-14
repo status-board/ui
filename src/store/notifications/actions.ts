@@ -53,7 +53,7 @@ const close = (id: string): CloseNotificationAction => ({
 export const closeNotification = (id: string, delay = 0) => (dispatch: any) => {
     if (delay > 0) {
         clearTimer(id);
-        timers[id] = setTimeout(() => {
+        timers[id] = window.setTimeout(() => {
             dispatch(close(id));
         }, delay);
     } else {

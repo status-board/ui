@@ -3,7 +3,7 @@ import NotificationsItem from './NotificationsItem';
 import Wrapper from './NotificationsWrapper';
 import { Notification } from '../../types';
 
-interface NotificationsProps {
+export interface NotificationsProps {
     notifications: Notification[];
 }
 

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { withTheme } from 'styled-components';
 import {
     SlidersIcon,
     Widget,
@@ -7,8 +6,8 @@ import {
     WidgetHeader,
     WidgetListItem,
 } from '@status-board/components';
-
-import { Theme, Themes } from '../../types';
+import { withTheme } from 'emotion-theming';
+import { Theme, Themes } from '@status-board/theme-manager/lib/types';
 
 interface ThemeSettingProps {
     themes: Themes;

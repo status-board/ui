@@ -1,6 +1,5 @@
 import React, { Component, createElement } from 'react';
 import omit from 'lodash/omit';
-import { is } from 'immutable';
 import { withTheme } from 'emotion-theming';
 import { Theme } from '@status-board/theme-manager/lib/types';
 
@@ -10,7 +9,7 @@ import { WidgetsRegistryType } from '../WidgetsRegistry';
 
 const ignoreProps = ['extension', 'widget', 'registry', 'apiData', 'apiError'];
 
-interface Props {
+export interface WidgetWrapperProps {
     apiData?: {};
     apiError?: {};
     extension: string;
@@ -21,14 +20,13 @@ interface Props {
     registry: WidgetsRegistryType;
 }
 
-
-class WidgetWrapper extends Component<Props> {
-    public shouldComponentUpdate(nextProps: Props) {
+export class WidgetWrapper extends Component<WidgetWrapperProps> {
+    public shouldComponentUpdate(nextProps: WidgetWrapperProps) {
         const { apiData, apiError } = this.props;
         return (
             !shallowEqual(omit(this.props, ignoreProps), omit(nextProps, ignoreProps))
-            || !is(apiData, nextProps.apiData)
-            || !is(apiError, nextProps.apiError)
+            || !Object.is(apiData, nextProps.apiData)
+            || !Object.is(apiError, nextProps.apiError)
         );
     }
 
