@@ -1,6 +1,6 @@
 module.exports = {
-  "*.ts": [
-    "npm run eslint",
-    "git add"
-  ]
+    'src/**/*.{ts,tsx}': [
+        'npm run eslint:fix',
+        'git add',
+    ],
 };

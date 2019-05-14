@@ -1,9 +1,9 @@
-export default class C {
-    private x = 10;
+import StatusBoard from './App';
+import Registry from './WidgetsRegistry';
+import Inspector from './components/Inspector';
 
-    public getX = () => this.x;
+Registry.add('status-board', 'Inspector', Inspector);
 
-    public setX = (newVal: number) => {
-        this.x = newVal;
-    }
-}
+export { Registry };
+
+export default StatusBoard;
