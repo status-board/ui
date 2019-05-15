@@ -105,7 +105,7 @@
     "lint-staged": "8.1.7",
     "npmvet": "0.1.5",
     "react": "16.8.6",
-    "semantic-release": "15.13.13",
+    "semantic-release": "15.13.14",
     "ts-jest": "24.0.2",
     "typescript": "3.4.5"
   },
