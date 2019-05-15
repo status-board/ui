@@ -86,7 +86,7 @@
     "@typescript-eslint/eslint-plugin": "1.9.0",
     "@typescript-eslint/parser": "1.9.0",
     "all-contributors-cli": "6.4.0",
-    "codecov": "3.4.0",
+    "codecov": "3.5.0",
     "commitizen": "3.1.1",
     "cz-conventional-changelog": "2.1.0",
     "eslint": "5.16.0",
