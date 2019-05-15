@@ -29,8 +29,6 @@ interface Widget extends WidgetType {
     top: string;
 }
 
-const ignoreProps = ['x', 'y', 'top', 'left', 'columns', 'rows', 'width', 'height'];
-
 export default function Dashboard(props: Props) {
     const {
         dashboard: { columns, rows, widgets: _widgets },

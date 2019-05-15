@@ -2,7 +2,7 @@
 coverage
 src
 .all-contributorsrc
-.babelrc
+backup.babelrc.backup
 .eslintrc.js
 .nvmrc
 commitlint.config.js

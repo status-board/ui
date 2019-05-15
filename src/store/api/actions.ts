@@ -16,7 +16,7 @@ import {
     API_UNSUBSCRIBE,
     ApiFailureAction,
     ReceiveApiDataAction,
-    SubscribedToApiAction, SubscribeToApiAction,
+    SubscribedToApiAction,
     Subscription,
 } from './types';
 
@@ -32,7 +32,7 @@ export const allSubscriptionsUnsubscribed = (): AllSubscriptionsUnsubscribedActi
 export const subscribeToApi = (subscription: Subscription) => (
     dispatch: Dispatch<Action>,
     getState: () => RootState,
-): SubscribeToApiAction | undefined => {
+) => {
     const { api, ws } = getState();
 
     if (!has(api, `subscriptions[${subscription.id}]`)) {

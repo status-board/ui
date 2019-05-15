@@ -15,7 +15,7 @@ module.exports = {
     'sourceType': 'module',
     'project': './tsconfig.json'
   },
-  'plugins': ['@typescript-eslint', 'jest', 'import'],
+  'plugins': ['@typescript-eslint', 'jest', 'import', 'react-hooks'],
   'settings': {
     'import/resolver': {
       'node': {

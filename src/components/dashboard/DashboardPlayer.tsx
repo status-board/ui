@@ -40,13 +40,10 @@ function DashboardPlayer(props: DashboardPlayerProps) {
 
     const iconColor = theme.colors.icon;
 
-    let icon;
     let handler;
     if (isPlaying) {
-        icon = 'plus';
         handler = pause;
     } else {
-        icon = 'plusSparks';
         handler = play;
     }
 
