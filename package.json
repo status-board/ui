@@ -88,7 +88,7 @@
     "@types/socket.io-client": "1.4.32",
     "@typescript-eslint/eslint-plugin": "1.9.0",
     "@typescript-eslint/parser": "1.9.0",
-    "all-contributors-cli": "6.4.0",
+    "all-contributors-cli": "6.7.0",
     "codecov": "3.5.0",
     "commitizen": "3.1.1",
     "cross-env": "5.2.0",
