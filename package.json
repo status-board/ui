@@ -87,7 +87,7 @@
     "@types/semantic-release": "15.13.0",
     "@types/socket.io-client": "1.4.32",
     "@typescript-eslint/eslint-plugin": "1.9.0",
-    "@typescript-eslint/parser": "1.9.0",
+    "@typescript-eslint/parser": "1.11.0",
     "all-contributors-cli": "6.7.0",
     "codecov": "3.5.0",
     "commitizen": "3.1.1",
