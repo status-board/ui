@@ -40,7 +40,7 @@
     "verify:tscheck": "npx typesync"
   },
   "dependencies": {
-    "@emotion/core": "10.0.14",
+    "@emotion/core": "10.0.16",
     "@emotion/styled": "10.0.12",
     "@fortawesome/fontawesome-svg-core": "1.2.19",
     "@fortawesome/free-brands-svg-icons": "5.9.0",
